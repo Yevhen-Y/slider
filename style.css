@@ -1,0 +1,39 @@
+body{
+		background: #f2f2f2;
+	}
+
+	.title h1{
+		text-align: center;
+		font-family: Lucida Sans Unicode;
+		color: #595959;
+	}
+
+				.container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-top: 20px;
+			width: 100%;
+		}
+
+		 .picture img{
+		 	width: 500px;
+			height: 300px;
+		 	border-radius: 20px;
+		 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		 }
+
+		 .picture img:hover{
+		 	cursor: pointer;
+		 }
+
+		.backward span, .forward span{
+            font-size: 45px;
+            color: 	#737373;
+            padding: 0px 10px;
+		}
+
+		.backward span:hover, .forward span:hover{
+         color: #595959;
+		}
